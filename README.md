@@ -33,4 +33,4 @@ npm run build
 
 Build and type checks passed. Live fetching and account switching were verified. Source records are read only and workflow notes are stored separately. Desktop and mobile captures are in `output/playwright/`.
 
-The Sites starter integration is retained. This session has no native Sites registration or deployment tools, so no hosted URL has been created.
+Production site: [Nebula](https://nebula-gold-phi.vercel.app). Vercel uses `vercel.json` to run `next build --webpack` and serve the Next.js application and GitHub API. The existing `npm run dev` and `npm run build` commands retain the local Sites workflow. The initial Vercel deployment was uploaded from local source; GitHub automatic deployments are not connected.

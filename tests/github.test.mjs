@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { toContribution } from "../lib/github.ts";
 import { applyAnnotations } from "../lib/contributions.ts";
 import { githubLoginSchema, accountCacheKey, accountNotesKey } from "../lib/github-account.ts";
+import { isSameOriginRequest } from "../lib/request-origin.ts";
 
 const issue = {
   id: 42, number: 7, title: "fix: empty results", html_url: "https://github.com/example/project/pull/7",
@@ -62,4 +63,14 @@ test("assigned issue status follows the selected account", () => {
   const assigned = {...issue, pull_request: undefined, assignees: [{login: "alice"}]};
   assert.equal(toContribution(assigned, new Set(), new Set(), "alice").status, "In progress");
   assert.equal(toContribution(assigned, new Set(), new Set(), "bob").status, "Researching");
+});
+
+test("same-origin checks accept the public host when Next uses an internal URL", () => {
+  const request=new Request("http://localhost:3001/api/github",{headers:{host:"127.0.0.1:3001",origin:"http://127.0.0.1:3001"}});
+  assert.equal(isSameOriginRequest(request),true);
+});
+
+test("same-origin checks reject foreign and missing origins", () => {
+  assert.equal(isSameOriginRequest(new Request("https://nebula.example/api/github",{headers:{host:"nebula.example",origin:"https://other.example"}})),false);
+  assert.equal(isSameOriginRequest(new Request("https://nebula.example/api/github")),false);
 });

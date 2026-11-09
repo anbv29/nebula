@@ -3,7 +3,7 @@ import "./globals.css";
 import "./workbench.css";
 
 export const metadata: Metadata = {
-  title: "Nebula — Your open-source workspace",
+  title: "Nebula",
   description: "Track issues, pull requests, reviews, and the next step across every open-source project.",
   icons: {
     icon: "/favicon.svg",

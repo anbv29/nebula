@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { fetchContributions, GitHubError } from "../../../lib/github";
 import { githubLoginSchema } from "../../../lib/github-account";
+import { isSameOriginRequest } from "../../../lib/request-origin";
 
 type Snapshot=Awaited<ReturnType<typeof fetchContributions>>;
 const cached=new Map<string,Snapshot>();
@@ -10,7 +11,7 @@ let blockedUntil=0;
 
 export async function POST(request:Request){
   const headers={"Cache-Control":"private, no-store"};
-  if(request.headers.get("origin")!==new URL(request.url).origin)return Response.json({message:"This request must come from Nebula."},{status:403,headers});
+  if(!isSameOriginRequest(request))return Response.json({message:"This request must come from Nebula."},{status:403,headers});
   let payload:unknown;
   try{payload=await request.json();}catch{return Response.json({message:"Enter a GitHub username."},{status:400,headers});}
   const parsed=requestSchema.safeParse(payload);

@@ -1,0 +1,11 @@
+.git
+.next
+.vinext
+.wrangler
+.sites-runtime
+.playwright-cli
+node_modules
+dist
+output
+outputs
+assets/contribution-sculpture-source.png
