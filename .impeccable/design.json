@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T08:36:11.704Z",
+  "title": "Design System: Nebula",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0037 106.66)",
+          "oklch(26.43% 0.0037 106.66)",
+          "oklch(37.86% 0.0037 106.66)",
+          "oklch(49.29% 0.0037 106.66)",
+          "oklch(60.71% 0.0037 106.66)",
+          "oklch(72.14% 0.0037 106.66)",
+          "oklch(83.57% 0.0037 106.66)",
+          "oklch(95% 0.0037 106.66)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0123 106.82)",
+          "oklch(26.43% 0.0123 106.82)",
+          "oklch(37.86% 0.0123 106.82)",
+          "oklch(49.29% 0.0123 106.82)",
+          "oklch(60.71% 0.0123 106.82)",
+          "oklch(72.14% 0.0123 106.82)",
+          "oklch(83.57% 0.0123 106.82)",
+          "oklch(95% 0.0123 106.82)"
+        ]
+      },
+      "violet": {
+        "role": "primary",
+        "displayName": "Violet",
+        "tonalRamp": [
+          "oklch(15% 0.2171 268.56)",
+          "oklch(26.43% 0.2171 268.56)",
+          "oklch(37.86% 0.2171 268.56)",
+          "oklch(49.29% 0.2171 268.56)",
+          "oklch(60.71% 0.2171 268.56)",
+          "oklch(72.14% 0.2171 268.56)",
+          "oklch(83.57% 0.2171 268.56)",
+          "oklch(95% 0.2171 268.56)"
+        ]
+      },
+      "violet-hover": {
+        "role": "primary",
+        "displayName": "Violet Hover",
+        "tonalRamp": [
+          "oklch(15% 0.2040 268.30)",
+          "oklch(26.43% 0.2040 268.30)",
+          "oklch(37.86% 0.2040 268.30)",
+          "oklch(49.29% 0.2040 268.30)",
+          "oklch(60.71% 0.2040 268.30)",
+          "oklch(72.14% 0.2040 268.30)",
+          "oklch(83.57% 0.2040 268.30)",
+          "oklch(95% 0.2040 268.30)"
+        ]
+      },
+      "lilac": {
+        "role": "secondary",
+        "displayName": "Lilac",
+        "tonalRamp": [
+          "oklch(15% 0.1456 35.97)",
+          "oklch(26.43% 0.1456 35.97)",
+          "oklch(37.86% 0.1456 35.97)",
+          "oklch(49.29% 0.1456 35.97)",
+          "oklch(60.71% 0.1456 35.97)",
+          "oklch(72.14% 0.1456 35.97)",
+          "oklch(83.57% 0.1456 35.97)",
+          "oklch(95% 0.1456 35.97)"
+        ]
+      },
+      "butter": {
+        "role": "secondary",
+        "displayName": "Butter",
+        "tonalRamp": [
+          "oklch(15% 0.1017 98.28)",
+          "oklch(26.43% 0.1017 98.28)",
+          "oklch(37.86% 0.1017 98.28)",
+          "oklch(49.29% 0.1017 98.28)",
+          "oklch(60.71% 0.1017 98.28)",
+          "oklch(72.14% 0.1017 98.28)",
+          "oklch(83.57% 0.1017 98.28)",
+          "oklch(95% 0.1017 98.28)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.0067 97.35)",
+          "oklch(26.43% 0.0067 97.35)",
+          "oklch(37.86% 0.0067 97.35)",
+          "oklch(49.29% 0.0067 97.35)",
+          "oklch(60.71% 0.0067 97.35)",
+          "oklch(72.14% 0.0067 97.35)",
+          "oklch(83.57% 0.0067 97.35)",
+          "oklch(95% 0.0067 97.35)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "tonalRamp": [
+          "oklch(15% 0.0057 121.84)",
+          "oklch(26.43% 0.0057 121.84)",
+          "oklch(37.86% 0.0057 121.84)",
+          "oklch(49.29% 0.0057 121.84)",
+          "oklch(60.71% 0.0057 121.84)",
+          "oklch(72.14% 0.0057 121.84)",
+          "oklch(83.57% 0.0057 121.84)",
+          "oklch(95% 0.0057 121.84)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0095 100.00)",
+          "oklch(26.43% 0.0095 100.00)",
+          "oklch(37.86% 0.0095 100.00)",
+          "oklch(49.29% 0.0095 100.00)",
+          "oklch(60.71% 0.0095 100.00)",
+          "oklch(72.14% 0.0095 100.00)",
+          "oklch(83.57% 0.0095 100.00)",
+          "oklch(95% 0.0095 100.00)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "tonalRamp": [
+          "oklch(15% 0.0211 119.02)",
+          "oklch(26.43% 0.0211 119.02)",
+          "oklch(37.86% 0.0211 119.02)",
+          "oklch(49.29% 0.0211 119.02)",
+          "oklch(60.71% 0.0211 119.02)",
+          "oklch(72.14% 0.0211 119.02)",
+          "oklch(83.57% 0.0211 119.02)",
+          "oklch(95% 0.0211 119.02)"
+        ]
+      },
+      "nav-selected": {
+        "role": "neutral",
+        "displayName": "Nav Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0199 106.77)",
+          "oklch(26.43% 0.0199 106.77)",
+          "oklch(37.86% 0.0199 106.77)",
+          "oklch(49.29% 0.0199 106.77)",
+          "oklch(60.71% 0.0199 106.77)",
+          "oklch(72.14% 0.0199 106.77)",
+          "oklch(83.57% 0.0199 106.77)",
+          "oklch(95% 0.0199 106.77)"
+        ]
+      },
+      "nav-selected-ink": {
+        "role": "neutral",
+        "displayName": "Nav Selected Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0148 124.07)",
+          "oklch(26.43% 0.0148 124.07)",
+          "oklch(37.86% 0.0148 124.07)",
+          "oklch(49.29% 0.0148 124.07)",
+          "oklch(60.71% 0.0148 124.07)",
+          "oklch(72.14% 0.0148 124.07)",
+          "oklch(83.57% 0.0148 124.07)",
+          "oklch(95% 0.0148 124.07)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card",
+        "tonalRamp": [
+          "oklch(15% 0.0094 99.99)",
+          "oklch(26.43% 0.0094 99.99)",
+          "oklch(37.86% 0.0094 99.99)",
+          "oklch(49.29% 0.0094 99.99)",
+          "oklch(60.71% 0.0094 99.99)",
+          "oklch(72.14% 0.0094 99.99)",
+          "oklch(83.57% 0.0094 99.99)",
+          "oklch(95% 0.0094 99.99)"
+        ]
+      },
+      "card-line": {
+        "role": "neutral",
+        "displayName": "Card Line",
+        "tonalRamp": [
+          "oklch(15% 0.0122 101.51)",
+          "oklch(26.43% 0.0122 101.51)",
+          "oklch(37.86% 0.0122 101.51)",
+          "oklch(49.29% 0.0122 101.51)",
+          "oklch(60.71% 0.0122 101.51)",
+          "oklch(72.14% 0.0122 101.51)",
+          "oklch(83.57% 0.0122 101.51)",
+          "oklch(95% 0.0122 101.51)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Control",
+        "tonalRamp": [
+          "oklch(15% 0.0082 91.48)",
+          "oklch(26.43% 0.0082 91.48)",
+          "oklch(37.86% 0.0082 91.48)",
+          "oklch(49.29% 0.0082 91.48)",
+          "oklch(60.71% 0.0082 91.48)",
+          "oklch(72.14% 0.0082 91.48)",
+          "oklch(83.57% 0.0082 91.48)",
+          "oklch(95% 0.0082 91.48)"
+        ]
+      },
+      "control-line": {
+        "role": "neutral",
+        "displayName": "Control Line",
+        "tonalRamp": [
+          "oklch(15% 0.0192 116.63)",
+          "oklch(26.43% 0.0192 116.63)",
+          "oklch(37.86% 0.0192 116.63)",
+          "oklch(49.29% 0.0192 116.63)",
+          "oklch(60.71% 0.0192 116.63)",
+          "oklch(72.14% 0.0192 116.63)",
+          "oklch(83.57% 0.0192 116.63)",
+          "oklch(95% 0.0192 116.63)"
+        ]
+      },
+      "table": {
+        "role": "neutral",
+        "displayName": "Table",
+        "tonalRamp": [
+          "oklch(15% 0.0069 88.64)",
+          "oklch(26.43% 0.0069 88.64)",
+          "oklch(37.86% 0.0069 88.64)",
+          "oklch(49.29% 0.0069 88.64)",
+          "oklch(60.71% 0.0069 88.64)",
+          "oklch(72.14% 0.0069 88.64)",
+          "oklch(83.57% 0.0069 88.64)",
+          "oklch(95% 0.0069 88.64)"
+        ]
+      },
+      "table-heading": {
+        "role": "neutral",
+        "displayName": "Table Heading",
+        "tonalRamp": [
+          "oklch(15% 0.0135 115.84)",
+          "oklch(26.43% 0.0135 115.84)",
+          "oklch(37.86% 0.0135 115.84)",
+          "oklch(49.29% 0.0135 115.84)",
+          "oklch(60.71% 0.0135 115.84)",
+          "oklch(72.14% 0.0135 115.84)",
+          "oklch(83.57% 0.0135 115.84)",
+          "oklch(95% 0.0135 115.84)"
+        ]
+      },
+      "row-line": {
+        "role": "neutral",
+        "displayName": "Row Line",
+        "tonalRamp": [
+          "oklch(15% 0.0173 110.30)",
+          "oklch(26.43% 0.0173 110.30)",
+          "oklch(37.86% 0.0173 110.30)",
+          "oklch(49.29% 0.0173 110.30)",
+          "oklch(60.71% 0.0173 110.30)",
+          "oklch(72.14% 0.0173 110.30)",
+          "oklch(83.57% 0.0173 110.30)",
+          "oklch(95% 0.0173 110.30)"
+        ]
+      },
+      "row-hover": {
+        "role": "neutral",
+        "displayName": "Row Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0133 111.27)",
+          "oklch(26.43% 0.0133 111.27)",
+          "oklch(37.86% 0.0133 111.27)",
+          "oklch(49.29% 0.0133 111.27)",
+          "oklch(60.71% 0.0133 111.27)",
+          "oklch(72.14% 0.0133 111.27)",
+          "oklch(83.57% 0.0133 111.27)",
+          "oklch(95% 0.0133 111.27)"
+        ]
+      },
+      "progress-bg": {
+        "role": "secondary",
+        "displayName": "Progress Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0410 111.69)",
+          "oklch(26.43% 0.0410 111.69)",
+          "oklch(37.86% 0.0410 111.69)",
+          "oklch(49.29% 0.0410 111.69)",
+          "oklch(60.71% 0.0410 111.69)",
+          "oklch(72.14% 0.0410 111.69)",
+          "oklch(83.57% 0.0410 111.69)",
+          "oklch(95% 0.0410 111.69)"
+        ]
+      },
+      "progress-ink": {
+        "role": "secondary",
+        "displayName": "Progress Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0868 122.16)",
+          "oklch(26.43% 0.0868 122.16)",
+          "oklch(37.86% 0.0868 122.16)",
+          "oklch(49.29% 0.0868 122.16)",
+          "oklch(60.71% 0.0868 122.16)",
+          "oklch(72.14% 0.0868 122.16)",
+          "oklch(83.57% 0.0868 122.16)",
+          "oklch(95% 0.0868 122.16)"
+        ]
+      },
+      "review-bg": {
+        "role": "secondary",
+        "displayName": "Review Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0274 276.84)",
+          "oklch(26.43% 0.0274 276.84)",
+          "oklch(37.86% 0.0274 276.84)",
+          "oklch(49.29% 0.0274 276.84)",
+          "oklch(60.71% 0.0274 276.84)",
+          "oklch(72.14% 0.0274 276.84)",
+          "oklch(83.57% 0.0274 276.84)",
+          "oklch(95% 0.0274 276.84)"
+        ]
+      },
+      "review-ink": {
+        "role": "secondary",
+        "displayName": "Review Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0951 269.88)",
+          "oklch(26.43% 0.0951 269.88)",
+          "oklch(37.86% 0.0951 269.88)",
+          "oklch(49.29% 0.0951 269.88)",
+          "oklch(60.71% 0.0951 269.88)",
+          "oklch(72.14% 0.0951 269.88)",
+          "oklch(83.57% 0.0951 269.88)",
+          "oklch(95% 0.0951 269.88)"
+        ]
+      },
+      "changes-bg": {
+        "role": "secondary",
+        "displayName": "Changes Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0275 67.48)",
+          "oklch(26.43% 0.0275 67.48)",
+          "oklch(37.86% 0.0275 67.48)",
+          "oklch(49.29% 0.0275 67.48)",
+          "oklch(60.71% 0.0275 67.48)",
+          "oklch(72.14% 0.0275 67.48)",
+          "oklch(83.57% 0.0275 67.48)",
+          "oklch(95% 0.0275 67.48)"
+        ]
+      },
+      "changes-ink": {
+        "role": "secondary",
+        "displayName": "Changes Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0871 71.24)",
+          "oklch(26.43% 0.0871 71.24)",
+          "oklch(37.86% 0.0871 71.24)",
+          "oklch(49.29% 0.0871 71.24)",
+          "oklch(60.71% 0.0871 71.24)",
+          "oklch(72.14% 0.0871 71.24)",
+          "oklch(83.57% 0.0871 71.24)",
+          "oklch(95% 0.0871 71.24)"
+        ]
+      },
+      "merged-bg": {
+        "role": "secondary",
+        "displayName": "Merged Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0231 308.18)",
+          "oklch(26.43% 0.0231 308.18)",
+          "oklch(37.86% 0.0231 308.18)",
+          "oklch(49.29% 0.0231 308.18)",
+          "oklch(60.71% 0.0231 308.18)",
+          "oklch(72.14% 0.0231 308.18)",
+          "oklch(83.57% 0.0231 308.18)",
+          "oklch(95% 0.0231 308.18)"
+        ]
+      },
+      "merged-ink": {
+        "role": "secondary",
+        "displayName": "Merged Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0843 305.07)",
+          "oklch(26.43% 0.0843 305.07)",
+          "oklch(37.86% 0.0843 305.07)",
+          "oklch(49.29% 0.0843 305.07)",
+          "oklch(60.71% 0.0843 305.07)",
+          "oklch(72.14% 0.0843 305.07)",
+          "oklch(83.57% 0.0843 305.07)",
+          "oklch(95% 0.0843 305.07)"
+        ]
+      },
+      "research-bg": {
+        "role": "secondary",
+        "displayName": "Research Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0204 118.95)",
+          "oklch(26.43% 0.0204 118.95)",
+          "oklch(37.86% 0.0204 118.95)",
+          "oklch(49.29% 0.0204 118.95)",
+          "oklch(60.71% 0.0204 118.95)",
+          "oklch(72.14% 0.0204 118.95)",
+          "oklch(83.57% 0.0204 118.95)",
+          "oklch(95% 0.0204 118.95)"
+        ]
+      },
+      "research-ink": {
+        "role": "secondary",
+        "displayName": "Research Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0505 124.85)",
+          "oklch(26.43% 0.0505 124.85)",
+          "oklch(37.86% 0.0505 124.85)",
+          "oklch(49.29% 0.0505 124.85)",
+          "oklch(60.71% 0.0505 124.85)",
+          "oklch(72.14% 0.0505 124.85)",
+          "oklch(83.57% 0.0505 124.85)",
+          "oklch(95% 0.0505 124.85)"
+        ]
+      },
+      "closed-bg": {
+        "role": "secondary",
+        "displayName": "Closed Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0150 119.11)",
+          "oklch(26.43% 0.0150 119.11)",
+          "oklch(37.86% 0.0150 119.11)",
+          "oklch(49.29% 0.0150 119.11)",
+          "oklch(60.71% 0.0150 119.11)",
+          "oklch(72.14% 0.0150 119.11)",
+          "oklch(83.57% 0.0150 119.11)",
+          "oklch(95% 0.0150 119.11)"
+        ]
+      },
+      "closed-ink": {
+        "role": "secondary",
+        "displayName": "Closed Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0567 127.30)",
+          "oklch(26.43% 0.0567 127.30)",
+          "oklch(37.86% 0.0567 127.30)",
+          "oklch(49.29% 0.0567 127.30)",
+          "oklch(60.71% 0.0567 127.30)",
+          "oklch(72.14% 0.0567 127.30)",
+          "oklch(83.57% 0.0567 127.30)",
+          "oklch(95% 0.0567 127.30)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Geometric Heading",
+        "purpose": "Syne page headings, scaling from 42px to 31px."
+      },
+      "metric": {
+        "displayName": "Activity Metric",
+        "purpose": "Syne tabular metric numerals, scaling from 47px to 36px."
+      },
+      "body": {
+        "displayName": "Task Text",
+        "purpose": "DM Sans for reading and controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-resting",
+        "value": "inset 0 1px 0 #ffffff45,0 3px 5px #7053d618",
+        "purpose": "Tactile violet action."
+      },
+      {
+        "name": "primary-hover",
+        "value": "inset 0 1px 0 #fff3,0 4px 9px #7053d625",
+        "purpose": "Action hover."
+      },
+      {
+        "name": "primary-pressed",
+        "value": "inset 0 2px 4px #33216f55",
+        "purpose": "Action press."
+      },
+      {
+        "name": "metric",
+        "value": "inset 0 1px 0 #fff9",
+        "purpose": "Shallow neutral tile highlight."
+      },
+      {
+        "name": "navigation",
+        "value": "0 2px 3px #0002",
+        "purpose": "Selected navigation row."
+      },
+      {
+        "name": "menu",
+        "value": "0 8px 22px #1a1e3018",
+        "purpose": "Backup menu."
+      },
+      {
+        "name": "editor",
+        "value": "-10px 0 45px #11142025",
+        "purpose": "Right-side modal panel."
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 22px #13162322",
+        "purpose": "Temporary feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "primary-transition",
+        "value": "background .15s,transform .15s,box-shadow .15s",
+        "purpose": "Primary hover and press feedback."
+      },
+      {
+        "name": "primary-press",
+        "value": "translateY(1px)",
+        "purpose": "Physical press state."
+      },
+      {
+        "name": "editor-entry",
+        "value": "enter .22s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Inherited drawer motion from translateX(30px) and opacity .8."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce){animation:none!important;transition:none!important;scroll-behavior:auto!important}",
+        "purpose": "Disable nonessential motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1250px"
+      },
+      {
+        "name": "icon-rail",
+        "value": "1000px"
+      },
+      {
+        "name": "compact-content",
+        "value": "700px"
+      },
+      {
+        "name": "mobile",
+        "value": "500px"
+      },
+      {
+        "name": "inherited-mobile-input-safeguard",
+        "value": "580px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Tactile Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Sync and save actions with physical hover and press feedback.",
+      "html": "<button class=\"ds-primary\">Sync GitHub</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'DM Sans',sans-serif;background:var(--blue);border:1px solid #5b3fb9;border-radius:7px;padding:11px 16px;font-size:12px;font-weight:550;box-shadow:inset 0 1px 0 #ffffff45,0 3px 5px #7053d618;transition:background .15s,transform .15s,box-shadow .15s;color:white;cursor:pointer}.ds-primary:hover{background:#5e42be;box-shadow:inset 0 1px 0 #fff3,0 4px 9px #7053d625}.ds-primary:active{transform:translateY(1px);box-shadow:inset 0 2px 4px #33216f55}.ds-primary:disabled{opacity:.65;cursor:wait}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-nav:focus-visible,.ds-stat:focus-visible,.ds-title:focus-visible{outline:2px solid var(--blue);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet cool silver action for cancellation and recovery.",
+      "html": "<button class=\"ds-secondary\">Cancel</button>",
+      "css": ".ds-secondary{font-family:'DM Sans',sans-serif;background:#fcfcff;border:1px solid #bec3d5;border-radius:6px;font-size:12px;padding:10px 14px;color:#31364b;cursor:pointer}.ds-secondary:hover{background:#dde0ee}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-nav:focus-visible,.ds-stat:focus-visible,.ds-title:focus-visible{outline:2px solid var(--blue);outline-offset:4px}"
+    },
+    {
+      "name": "Search",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "Recessed cool silver search control with focus on the full enclosure.",
+      "html": "<label class=\"ds-search\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Search contributions\" placeholder=\"Search contributions...\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:8px;background:#fcfcff;border:1px solid #bcc3de;border-radius:6px;width:285px;padding:10px 12px;color:#5d678f;box-shadow:inset 0 2px 3px #c0c6e020}.ds-search svg{flex-shrink:0}.ds-search input{font-family:'DM Sans',sans-serif;width:100%;border:0;background:none;font-size:12px;color:#232940;min-width:0}.ds-search input:focus{outline:none}.ds-search:focus-within{outline:2px solid var(--blue);outline-offset:2px}.ds-search input::placeholder{color:#586288}@media(max-width:700px){.ds-search{width:100%}}@media(max-width:580px){.ds-search input{font-size:16px}.ds-search input::placeholder{font-size:11px}}"
+    },
+    {
+      "name": "Selected Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-selected",
+      "description": "Pale selected navigation row within the midnight navy rail.",
+      "html": "<button class=\"ds-nav\" aria-current=\"page\" aria-label=\"Overview\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg>Overview</button>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;font-family:'DM Sans',sans-serif;font-size:13px;padding:12px;border-radius:6px;background:#dee2ef;color:#1c2134;font-weight:600;box-shadow:0 2px 3px #0002;cursor:pointer}.ds-nav svg{color:var(--blue);flex-shrink:0}.ds-nav:hover{background:#dee2ef}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-nav:focus-visible,.ds-stat:focus-visible,.ds-title:focus-visible{outline:2px solid var(--blue);outline-offset:4px}@media(max-width:1000px){.ds-nav{font-size:0;padding:13px;justify-content:center;gap:0}}"
+    },
+    {
+      "name": "Read-only Progress Status",
+      "kind": "chip",
+      "refersTo": "status-progress",
+      "description": "GitHub source status displayed as an icon and label.",
+      "html": "<span class=\"ds-status\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"1\"/></svg><span>In progress</span></span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:5px;border-radius:4px;padding:5px 7px;font-family:'DM Sans',sans-serif;font-size:10px;background:#ced3e7;color:#393f57;white-space:nowrap}"
+    },
+    {
+      "name": "Active Metric Tile",
+      "kind": "card",
+      "refersTo": "metric-active",
+      "description": "Violet active-work card, the strongest dashboard surface.",
+      "html": "<button class=\"ds-stat\"><span class=\"ds-stat-label\">Active contributions</span><span class=\"ds-stat-value\">5</span><span class=\"ds-stat-note\">Across 4 repositories</span></button>",
+      "css": ".ds-stat{display:block;position:relative;text-align:left;font-family:'DM Sans',sans-serif;background:var(--blue);color:white;border:1px solid var(--blue);border-radius:10px;padding:21px 22px 18px;min-height:158px;box-shadow:inset 0 1px 0 #ffffff45;transition:background .15s;cursor:pointer}.ds-stat:hover{background:#6446c6}.ds-stat-label{display:block;font-size:12px;font-weight:500;color:#ece8ff}.ds-stat-value{display:block;font-family:Syne,sans-serif;font-size:47px;font-weight:600;line-height:1.2;margin-top:13px;letter-spacing:-1.5px;font-variant-numeric:tabular-nums}.ds-stat-note{display:block;font-size:11px;color:#ece8ff;margin-top:10px}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-nav:focus-visible,.ds-stat:focus-visible,.ds-title:focus-visible{outline:2px solid var(--blue);outline-offset:4px}@media(max-width:500px){.ds-stat{padding:15px 17px;min-height:88px;display:grid;grid-template-columns:1fr auto;align-items:center;border-radius:8px}.ds-stat-value{grid-column:2;grid-row:1/3;font-size:36px;margin:0}.ds-stat-label{font-size:11px}.ds-stat-note{font-size:9px;margin-top:5px}}@media(prefers-reduced-motion:reduce){.ds-stat{transition:none}}"
+    },
+    {
+      "name": "Contribution Table",
+      "kind": "custom",
+      "refersTo": "table",
+      "description": "A calm ruled surface whose wide columns scroll inside the enclosure.",
+      "html": "<div class=\"ds-table-scroll\"><table class=\"ds-table\"><thead><tr><th>Contribution</th><th>Repository</th></tr></thead><tbody><tr><td><button class=\"ds-title\">Improve workflow validation</button></td><td>kestra-io/kestra</td></tr></tbody></table></div>",
+      "css": ".ds-table-scroll{overflow-x:auto;border:1px solid #bdc3de;border-radius:8px;background:#fcfcff}.ds-table{width:100%;min-width:950px;border-collapse:collapse;text-align:left;white-space:nowrap;font-family:'DM Sans',sans-serif;color:var(--ink)}.ds-table th{font-size:10px;font-weight:500;padding:13px 17px;background:#dfe2ef;border-bottom:1px solid #c1c7e0;color:#4a5271}.ds-table td{padding:18px 17px;border-bottom:1px solid #dadeed;font-size:12px}.ds-table tbody tr:hover{background:#e8ebf4}.ds-title{display:block;max-width:310px;overflow:hidden;text-overflow:ellipsis;padding:0;text-align:left;font-family:inherit;font-size:12px;font-weight:500;color:#282d3e;line-height:1.6;background:none;border:0;cursor:pointer}.ds-title:hover{color:var(--blue);text-decoration:underline;text-underline-offset:3px}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-nav:focus-visible,.ds-stat:focus-visible,.ds-title:focus-visible{outline:2px solid var(--blue);outline-offset:4px}@media(max-width:500px){.ds-table-scroll{border-radius:6px}.ds-table th{padding:13px 14px}.ds-table td{padding:17px 14px}}"
+    },
+    {
+      "name": "Chrome Branch Sculpture",
+      "kind": "custom",
+      "description": "Approved transparent raster artwork reused in the header and cropped brand mark. Requires the shipped /art asset.",
+      "html": "<div class=\"ds-sculpture\" aria-hidden=\"true\"><img src=\"/art/contribution-sculpture.webp\" alt=\"\" width=\"200\" height=\"140\"></div>",
+      "css": ".ds-sculpture{position:relative;width:200px;height:140px;pointer-events:none;isolation:isolate}.ds-sculpture img{display:block;width:100%;height:100%;object-fit:contain}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Tactile Contribution Workbench",
+    "overview": "Nebula blends the selected Bauhaus and De Stijl geometry with tactile controls, an inflated violet tile, and liquid-chrome accents. A midnight navy rail anchors an cool silver working surface. Lilac appears sparingly in the brand punctuation and small sculptural bead; violet carries activity and action.\n\nThe working area stays calm: Syne gives headings and metrics a geometric voice, while DM Sans carries records and controls. Chrome is confined to the logo and header sculpture. This records the shipped implementation in app/workbench.css, its inherited foundations in app/globals.css, and app/page.tsx. PRODUCT.md and DIRECTION.md establish the authorized blended world and automatic GitHub workflow.",
+    "keyCharacteristics": [
+      "Midnight navy navigation, cool silver canvas, and concentrated violet activity.",
+      "Geometric Syne headings with DM Sans task text.",
+      "Tactile controls and chrome geometry around a calm ruled table.",
+      "One cohesive visual world with responsive icon navigation."
+    ],
+    "rules": [
+      {
+        "name": "The Violet Action Rule",
+        "body": "Use violet for primary actions, active filters, focus, and the active-work metric; reserve lilac for the observed small accents.",
+        "section": "colors"
+      },
+      {
+        "name": "The Task Type Rule",
+        "body": "Use Syne for headings and metrics, and DM Sans for record content and controls.",
+        "section": "typography"
+      },
+      {
+        "name": "The Material Boundary Rule",
+        "body": "Keep chrome and inflated geometry in the identity and header sculpture; use fine rules and restrained fills in the contribution table.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do retain labels and line icons alongside status colors.",
+      "Do keep source fields visually distinct from editable workflow notes.",
+      "Do contain horizontal overflow in the table and status filters.",
+      "Do preserve mobile 16px entry fields and reduced-motion support."
+    ],
+    "donts": [
+      "Don't introduce a theme switcher; this is one blended visual world.",
+      "Don't present GitHub status as an editable select or add manual contribution creation.",
+      "Don't extend chrome ornament into data rows or replace the table with individually shadowed cards."
+    ]
+  }
+}
